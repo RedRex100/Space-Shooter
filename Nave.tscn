@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://d4mk7yhx5mxkp"]
+
+[ext_resource type="Texture2D" uid="uid://cdewdglc7lblt" path="res://graphics/ship/playerShip1_blue.png" id="1_l7t7u"]
+[ext_resource type="Texture2D" uid="uid://bbbhej0k8yjsu" path="res://graphics/ship/playerShip1_red.png" id="2_ta373"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(118, -86)
+
+[node name="PlayerShip1Red" type="Sprite2D" parent="."]
+position = Vector2(88, 303)
+texture = ExtResource("2_ta373")
+
+[node name="PlayerShip1Blue" type="Sprite2D" parent="."]
+position = Vector2(141.75, 30.75)
+scale = Vector2(6.10606, 2.42)
+texture = ExtResource("1_l7t7u")

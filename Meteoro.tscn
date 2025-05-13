@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmpa2kkik2gph"]
+
+[ext_resource type="Texture2D" uid="uid://bpw7ofg3w6xcn" path="res://graphics/Meteors/1.png" id="1_3p0sd"]
+[ext_resource type="Texture2D" uid="uid://bc6nv3thenche" path="res://graphics/Meteors/5.png" id="2_ke6ge"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="1" type="Sprite2D" parent="."]
+position = Vector2(339, 256)
+scale = Vector2(7.4604, 2.41667)
+texture = ExtResource("1_3p0sd")
+
+[node name="5" type="Sprite2D" parent="1"]
+position = Vector2(13.4041, -68.8965)
+scale = Vector2(0.134041, 0.413793)
+texture = ExtResource("2_ke6ge")
